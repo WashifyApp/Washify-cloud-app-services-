@@ -1,6 +1,5 @@
 # auth_service/main.py
 
-```python
 import os
 from datetime import datetime, timedelta
 from typing import Optional
@@ -307,4 +306,3 @@ async def root():
     return {
         "message": "Washify Auth Service Running"
     }
-```
