@@ -1,6 +1,5 @@
 # auth_service/requirements.txt
 
-```txt
 fastapi
 uvicorn
 motor
@@ -9,4 +8,3 @@ python-jose
 passlib[bcrypt]
 pyjwt
 email-validator
-```
