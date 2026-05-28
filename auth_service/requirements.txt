@@ -1,11 +1,12 @@
+# auth_service/requirements.txt
+
+```txt
 fastapi
 uvicorn
 motor
-pydantic
-pydantic[email]
-bcrypt==3.2.2
-passlib
+pymongo
+python-jose
+passlib[bcrypt]
 pyjwt
-python-dotenv
-httpx
-apscheduler
+email-validator
+```
